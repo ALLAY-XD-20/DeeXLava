@@ -7,7 +7,7 @@ Lavalink v4 plugin that adds a Deezer source. Author: **Pawan**
 ```yaml
 lavalink:
   plugins:
-    - dependency: "com.github.<your-github-user>:DeeXLava:<TAG>"
+    - dependency: "om.github.ALLAY-XD-20:DeeXLava:1.1.1"
       repository: "https://jitpack.io"
 ```
 
