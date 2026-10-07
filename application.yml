@@ -1,0 +1,20 @@
+# Sample only. Copy the `plugins:` block into your own Lavalink application.yml.
+plugins:
+  deexlava:
+    engine: enable
+    # sourceName: deexlava          # name clients see; keep different from LavaSrc's "deezer"
+    # --- direct playback (optional; without these, tracks play through the mirror) ---
+    # arl: "YOUR_DEEZER_ARL_COOKIE"
+    # masterDecryptionKey: "16_CHAR_KEY_HERE"
+    # formats: ["FLAC", "MP3_320", "MP3_256", "MP3_128"]
+    # --- limits ---
+    # searchLimit: 10
+    # playlistLimit: 100
+    # artistTopLimit: 25
+    # --- mirror fallback ---
+    # mirrorEnabled: true
+    # providers: ["ytmsearch:%ISRC%", "ytsearch:%ISRC%", "ytmsearch:%QUERY%", "ytsearch:%QUERY%"]
+
+logging:
+  level:
+    dev.pawan.deexlava: INFO
